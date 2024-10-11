@@ -1,17 +1,33 @@
 {
-    "principalTypes": {
-      "Role": {
-        "Admin": {}
-      }
-    },
-    "actionTypes": {
-      "Action": {
-        "GET": {}
-      }
-    },
-    "resourceTypes": {
-      "Item": {
-        "my-item": {}
-      }
+    "ExampleApp": {
+        "entityTypes": {
+            "User": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {}
+                }
+            },
+            "Role": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {}
+                }
+            },
+            "Item": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {}
+                }
+            }
+        },
+        "actions": {
+            "getItem": {
+                "appliesTo": {
+                    "principalTypes": ["User", "Role"],
+                    "resourceTypes": ["Item"]
+                }
+            }
+        }
     }
-  }
+}
+ 
