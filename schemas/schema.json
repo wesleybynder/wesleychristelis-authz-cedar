@@ -1,0 +1,17 @@
+{
+    "principalTypes": {
+      "Role": {
+        "Admin": {}
+      }
+    },
+    "actionTypes": {
+      "Action": {
+        "GET": {}
+      }
+    },
+    "resourceTypes": {
+      "Item": {
+        "my-item": {}
+      }
+    }
+  }

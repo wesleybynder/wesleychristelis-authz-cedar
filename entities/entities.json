@@ -1,0 +1,26 @@
+[
+    {
+        "uid": {
+            "type": "ExampleApp::User",
+            "id": "Jane"
+        }, 
+        "attrs": {},
+        "parents": []
+    },
+    {
+        "uid": {
+            "type": "ExampleApp::Role",
+            "id": "Admin"
+        }, 
+        "attrs": {},
+        "parents": []
+    },
+    {
+        "uid": {
+            "type": "ExampleApp::Item",
+            "id": "my-item"
+        }, 
+        "attrs": {},
+        "parents": []
+    }
+ ]
